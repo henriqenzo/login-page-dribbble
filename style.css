@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: #e9e9e9;
+    align-items: center;
+}
+
+.img-background {
+    width: 62%;
+    height: 100vh;
+    background: url(img/img-login.png) center top no-repeat;
+    background-size: contain;
+}
+
+.login-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 38%;
+    height: 100vh;
+    background-color: #fff;
+    border-radius: 25px 0 0 25px;
+}
+
+.text {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.text h1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.text h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(92, 92, 92);
+}
+
+.form {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form input {
+    width: 450px;
+    height: 70px;
+    border: none;
+    border-bottom: 2px solid rgb(150, 150, 150);
+    font-size: 20px;
+}
+
+.form input:focus {
+    outline-style: none;
+}
+
+.form input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.bottom-area {
+    width: 450px;
+    padding-top: 23px;
+    display: flex;
+    gap: 7px;
+}
+
+.bottom-area input {
+    cursor: pointer;
+    width: 18px;
+    border: 2px solid black;
+}
+
+.bottom-area h3 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.bottom-area a {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+    padding-left: 112px;
+    transition: all .2s ease-in-out;
+}
+
+.bottom-area a:hover {
+    color: black;
+    transform: scale(1.1);
+}
+
+.button-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 22px;
+}
+
+.button-area button {
+    cursor: pointer;
+    width: 440px;
+    height: 64px;
+    border-radius: 32px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#login {
+    background-color: #333;
+    color: #fff;
+    transition: all .3s;
+}
+
+#login:hover {
+    transform: scale(1.05);
+    background-color: #000;
+}
+
+#login-google {
+    transition: all .3s;
+}
+
+#login-google:hover {
+    transform: scale(1.05);
+    background-color: #dddddd;
+}
+
+.button-area h3 {
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+
+.button-area h3 a {
+    display: inline-block;
+    padding-left: 8px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: all .2s ease-in-out;
+}
+
+.button-area h3 a:hover {
+    color: #6729ff;
+    transform: scale(1.1);
+}
